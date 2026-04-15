@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GeomScenes/GeomStartupScene.unity
+    guid: 0b65a19451adad743bee44818b5c12b4
+  - enabled: 1
+    path: Assets/Scenes/GeomScenes/MainMenuSceneGeom.unity
+    guid: bfcf47d0279733640b4cbd601d2c9555
+  - enabled: 1
+    path: Assets/Scenes/GeomScenes/VertexDissolveSceneGeom.unity
+    guid: 9c3c5e60ed421394990b93ee3643f771
+  - enabled: 1
+    path: Assets/Scenes/GeomScenes/VertexFragmentSceneGeom.unity
+    guid: 4abc93e34b5f65d4d8c83fb1ce1c47d2
+  - enabled: 1
+    path: Assets/Scenes/GeomScenes/MaterialDissolveFragmentSceneGeom.unity
+    guid: 51115f7effcda894fb94ad68950ba5f6
+  - enabled: 1
+    path: Assets/Scenes/GeomScenes/LightningStrikeSceneGeom.unity
+    guid: 1065ffa081fb307468a1ff69d621e2e7
+  - enabled: 1
+    path: Assets/Scenes/GeomScenes/ExplosionSceneGeom.unity
+    guid: 503f7feac420d3441997444ffd590e34
+  - enabled: 1
+    path: Assets/Scenes/GeomScenes/ImplosionSceneGeom.unity
+    guid: de5ca2e83e299aa4d84e304e184f0fe6
+  - enabled: 1
+    path: Assets/Scenes/GeomScenes/AuraSceneGeom.unity
+    guid: 2a9499a4de5b6e14e8f21b7cf15f633c
+  m_configObjects: {}
