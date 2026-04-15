@@ -1,7 +1,6 @@
 # Visual Effects in Unity (WIP)
 
-To-do:
-- add itch.io link to executable.
+**[itchio download link](https://briguy451.itch.io/visual-effect-course-project-6991)**
 
 ## Overview
 This is a repository for the visual effects I developed in 6991 3D Graphical and Geometrical Modeling course. This is a standard Unity project with it's standard file architecture. All of the essential code exists within the Assets folder. The primary bulk of the visual effects are stored in the Shaders folder (Assets -> Shaders). Inside the Shaders directory, the the sub-directories map to the Visual Effect scenes. So if you would like to know what went into making the effect you can look in those directories.
@@ -40,16 +39,15 @@ This was a pretty cool effect I liked, took me longer to create than it should h
 
 
 ### Aura Scene
-
+This scenes uses more perspective and lightning then any raw overcomplicated shader. There are couple things happening in this effect: One is the smoke surrounding the castle, the scrolling texture that is the sky, and the general under utilization of lighting to give a spooky effect. At it's core there are just multiple smoke flipbooks being player for the smoke. The smoke flipbook material is attached to a plane mesh which is then strategically placed around the castle. The final piece that sells the aura effect is the perspective of the camera which gives the effect it's depth an believability.
 
 ![Aura Scene](./Images/aura_scene.png)
 
 
-
-
 ## Reference Websites for understanding Shaders and Graphics programming:
-- Catlike Code
-- OpenGL Book
-- Procedural Texturing
-- Unity Shader Graph Link
-- Unity shader documentation
+- [Catlike Code](https://catlikecoding.com/)
+- [OpenGL RedBook](http://www.opengl-redbook.com/)
+- Texturing and Modeling: A Procedural Approach by David S. Ebert
+- [Unity Shader Graph](https://docs.unity3d.com/Packages/com.unity.shadergraph@16.0/manual/Flipbook-Node.html)
+- [Unity ShaderLab Documentation](https://docs.unity3d.com/6000.3/Documentation/Manual/shaders-reference.html)
+- [Microsoft HLSL Documentation](https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl)
