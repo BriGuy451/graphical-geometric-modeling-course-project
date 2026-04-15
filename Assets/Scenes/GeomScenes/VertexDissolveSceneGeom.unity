@@ -3928,7 +3928,7 @@ Transform:
   m_GameObject: {fileID: 1069477438}
   serializedVersion: 2
   m_LocalRotation: {x: -0.04272553, y: -0.7000282, z: -0.042067695, w: 0.71159357}
-  m_LocalPosition: {x: -131.39513, y: 7.755949, z: 101.28921}
+  m_LocalPosition: {x: -131.3951, y: 7.755949, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4014,7 +4014,6 @@ GameObject:
   - component: {fileID: 1239954795}
   - component: {fileID: 1239954794}
   - component: {fileID: 1239954793}
-  - component: {fileID: 1239954797}
   m_Layer: 0
   m_Name: SM_Buildings_University_01 (1)
   m_TagString: Untagged
@@ -4125,21 +4124,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239954791}
   m_Mesh: {fileID: 2762242457411233793, guid: e3b1af60055f9624eaf9f5ef9e1520bd, type: 3}
---- !u!114 &1239954797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239954791}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa4eaf8e977d0d8438ccf102b6db7876, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showVertexRay: 0
-  _boundaries: 1
-  iterations: 500
 --- !u!1 &1247251635
 GameObject:
   m_ObjectHideFlags: 0
@@ -5625,7 +5609,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1669348155}
   - component: {fileID: 1669348157}
-  - component: {fileID: 1669348156}
   m_Layer: 0
   m_Name: FunctionsContainer
   m_TagString: Untagged
@@ -5648,18 +5631,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1452989040}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1669348156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669348154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc58e8e2a76193c4fb5c5cf1ec624c88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlaySoundFunctions
 --- !u!114 &1669348157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5678,6 +5649,8 @@ MonoBehaviour:
   pauseToggle: {fileID: 640087057}
   explosionVFX: {fileID: 0}
   lightningVFX: {fileID: 0}
+  _ChangeSmokeColor: {fileID: 0}
+  _DirectionalLightToggle: {fileID: 0}
 --- !u!1 &1683611303
 GameObject:
   m_ObjectHideFlags: 0
@@ -5691,7 +5664,6 @@ GameObject:
   - component: {fileID: 1683611307}
   - component: {fileID: 1683611306}
   - component: {fileID: 1683611305}
-  - component: {fileID: 1683611309}
   m_Layer: 0
   m_Name: SM_Vehicles_Bus_V1
   m_TagString: Untagged
@@ -5802,21 +5774,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683611303}
   m_Mesh: {fileID: -4694971913523886418, guid: 442e035ad97d855469dc4dd253e9531f, type: 3}
---- !u!114 &1683611309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683611303}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa4eaf8e977d0d8438ccf102b6db7876, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showVertexRay: 0
-  _boundaries: 0
-  iterations: 500
 --- !u!1 &1820311635
 GameObject:
   m_ObjectHideFlags: 0

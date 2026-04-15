@@ -1760,7 +1760,6 @@ GameObject:
   m_Component:
   - component: {fileID: 477209991}
   - component: {fileID: 477209989}
-  - component: {fileID: 477209990}
   m_Layer: 0
   m_Name: FunctionsContainer
   m_TagString: Untagged
@@ -1786,18 +1785,8 @@ MonoBehaviour:
   pauseToggle: {fileID: 847688963}
   explosionVFX: {fileID: 0}
   lightningVFX: {fileID: 158393078}
---- !u!114 &477209990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477209988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc58e8e2a76193c4fb5c5cf1ec624c88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlaySoundFunctions
+  _ChangeSmokeColor: {fileID: 0}
+  _DirectionalLightToggle: {fileID: 0}
 --- !u!4 &477209991
 Transform:
   m_ObjectHideFlags: 0
@@ -3798,7 +3787,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 48
+  field of view: 70
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -3824,8 +3813,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471316528}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.04272553, y: -0.7000282, z: -0.042067695, w: 0.71159357}
-  m_LocalPosition: {x: -131.3951, y: 7.755949, z: -93.74928}
+  m_LocalRotation: {x: 0.11522186, y: -0.69206786, z: 0.113312535, w: 0.70351005}
+  m_LocalPosition: {x: -140, y: 27.97, z: 190.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

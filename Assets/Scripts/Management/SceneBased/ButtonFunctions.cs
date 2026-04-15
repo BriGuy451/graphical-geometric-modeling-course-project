@@ -36,34 +36,6 @@ public class ButtonFunctions : MonoBehaviour
     #endregion
 
     #region User Interface Functions
-    public void SwitchToCreateHostRoomFormScreen()
-    {
-        MainManager.UIManager.ChangeStateComplexView(UIComplexStates.PlayerCreateHostRoomFormScreen);
-    }
-    public void SwitchToClientRoomListScreen()
-    {
-        MainManager.UIManager.ChangeStateComplexView(UIComplexStates.PlayerClientRoomListScreen);
-    }
-    public void SwitchToLobbyHostScreen()
-    {
-        MainManager.UIManager.ChangeStateComplexView(UIComplexStates.PlayerLobbyHostRoomScreen);
-    }
-    public void SwitchToLobbyClientScreen()
-    {
-        MainManager.UIManager.ChangeStateComplexView(UIComplexStates.PlayerLobbyClientRoomScreen);
-    }
-    public void SwitchBackToMainMenuScreen()
-    {
-        MainManager.UIManager.ChangeStateComplexView(UIComplexStates.MainMenuScreen);
-    }
-    #endregion
-
-    #region Scene Related
-
-    public void MoveToMainMenuScene()
-    {
-        MainManager.SceneManagerLocal.MoveToMainMenuScene();
-    }
 
     public void MoveToMainMenuSceneGeom()
     {
@@ -193,11 +165,6 @@ public class ButtonFunctions : MonoBehaviour
         {
             _DirectionalLightToggle.ToggleActive();
         }
-    }
-
-    public void LobbyStartMissionButton()
-    {
-        MainManager.PlayersManager.SpawnAvailablePlayers();
     }
 
     public void DoNothingPlaceholder()

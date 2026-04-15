@@ -2965,7 +2965,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1004305042}
   - component: {fileID: 1004305044}
-  - component: {fileID: 1004305043}
   m_Layer: 0
   m_Name: FunctionsContainer
   m_TagString: Untagged
@@ -2988,18 +2987,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1620508620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1004305043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004305041}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc58e8e2a76193c4fb5c5cf1ec624c88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlaySoundFunctions
 --- !u!114 &1004305044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3018,6 +3005,8 @@ MonoBehaviour:
   pauseToggle: {fileID: 0}
   explosionVFX: {fileID: 0}
   lightningVFX: {fileID: 0}
+  _ChangeSmokeColor: {fileID: 0}
+  _DirectionalLightToggle: {fileID: 0}
 --- !u!1 &1015964640
 GameObject:
   m_ObjectHideFlags: 0
