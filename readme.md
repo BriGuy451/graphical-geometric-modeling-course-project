@@ -1,4 +1,7 @@
-# Visual Effects in Unity
+# Visual Effects in Unity (WIP)
+
+To-do:
+- add itch.io link to executable.
 
 ## Overview
 This is a repository for the visual effects I developed in 6991 3D Graphical and Geometrical Modeling course. This is a standard Unity project with it's standard file architecture. All of the essential code exists within the Assets folder. The primary bulk of the visual effects are stored in the Shaders folder (Assets -> Shaders). Inside the Shaders directory, the the sub-directories map to the Visual Effect scenes. So if you would like to know what went into making the effect you can look in those directories.
