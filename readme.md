@@ -18,7 +18,7 @@ This is the same as the vertex dissolve except it is implemented in the fragment
 
 
 ### Lightning Strike Scene
-This was a more involved scene that I tried to make, inspired from a Game Developer Conference presentation by Simon. He created a much better lightning effect but this was a good challenge and way to build some fundamental understanding about making visual effects. There are a decent amount of moving pieces from this but I essentially followed his steps while learning some good tips and techniques. There a multiple effects including erosion of the cloud texture, emission glow for lightning build-up, using gradient texture for unraveling of lightning, and a splash effect.
+This was a more involved scene that I tried to make, inspired from a [Game Developer Conference](https://www.youtube.com/watch?v=KaNDezgsg4M) presentation by Simon Trumpler. He created a much better lightning effect but this was a good challenge and way to build some fundamental understanding about making visual effects. There are a decent amount of moving pieces from this but I essentially followed his steps while learning some good tips and techniques. There a multiple effects including erosion of the cloud texture, emission glow for lightning build-up, using gradient texture for unraveling of lightning, and a splash effect.
 
 ![Lightning Strike Scene](./Images/lightning_vfx.png)
 
@@ -29,7 +29,7 @@ This is a simple texture panner. It scrolls the texture that is attached to the 
 ![Material Dissolve Scene](./Images/material_dissolve.png)
 
 ### Explosion Scene
-This scene implements multiple flipbook shaders to give the effect of fire and the explosion. The flipbooks used were obtained from a Unity blog on visual effect design. This requires sequence of playing flipbooks, disabling mesh renderers, and applying forces for debris scatter.
+This scene implements multiple flipbook shaders to give the effect of fire and the explosion. The flipbooks used were obtained from a Unity [blog](https://unity.com/blog/engine-platform/free-vfx-image-sequences-flipbooks) on visual effect design. This requires sequence of playing flipbooks, disabling mesh renderers, and applying forces for debris scatter.
 
 ![Explosion Scene](./Images/explosion_vfx.png)
 
