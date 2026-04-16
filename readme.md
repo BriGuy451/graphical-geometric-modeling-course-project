@@ -1,4 +1,4 @@
-# Visual Effects in Unity (WIP)
+# Visual Effects in Unity
 
 **[itchio download link](https://briguy451.itch.io/visual-effect-course-project-6991)**
 
@@ -44,7 +44,7 @@ This scenes uses more perspective and lightning then any raw overcomplicated sha
 ![Aura Scene](./Images/aura_scene.png)
 
 
-## Reference Websites for understanding Shaders and Graphics programming:
+## Reference Material for Shaders and Graphics Programming:
 - [Catlike Code](https://catlikecoding.com/)
 - [OpenGL RedBook](http://www.opengl-redbook.com/)
 - Texturing and Modeling: A Procedural Approach by David S. Ebert
