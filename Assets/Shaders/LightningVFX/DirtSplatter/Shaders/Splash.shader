@@ -58,7 +58,6 @@ Shader "6991/LightningVFX/SplashShader"
                 half4 lut_color = tex2D(_ColorLUT, half2(0.9, 0.7));
 
                 color.rgb = color.rgb * lut_color.rgb;
-                // color *= normal;
 
                 return color;
             }

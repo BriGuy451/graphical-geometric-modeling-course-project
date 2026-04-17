@@ -10,7 +10,6 @@
     SubShader
     {
         Tags { "RenderType"="Opaque" "ForceNoShadowCast"= "true" }
-        // Cull Off
         LOD 100
 
         Pass
@@ -20,8 +19,6 @@
             #pragma vertex vertex_passthrough
             #pragma fragment fragment_breakdown
             
-            // make fog work
-            // I want to play with the fog
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
@@ -51,7 +48,6 @@
             
             v2f vertex_passthrough(appdata v)
             {
-                // compute mask to determine if this vertex should be collapsed or not.
                 float vertex_position_mask = saturate((v.vertex.y - _MinY) / (_MaxY - _MinY));
                 
                 v2f vertex_to_fragment;
@@ -65,7 +61,6 @@
 
             fixed4 fragment_breakdown(v2f i) : SV_Target
             {
-                // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
 
                 if (i.mask_pos < _Threshold)

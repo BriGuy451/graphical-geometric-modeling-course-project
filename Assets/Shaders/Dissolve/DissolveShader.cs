@@ -23,7 +23,7 @@ public class DissolveShader : MonoBehaviour
         mesh = GetComponent<MeshFilter>().mesh;
         dissolveMaterial = GetComponent<MeshRenderer>().materials[0];
 
-        Bounds bounds = mesh.bounds; // local-space bounds
+        Bounds bounds = mesh.bounds;
 
         LogFromMethod($"_MinY:{bounds.min.y}");
         LogFromMethod($"_MaxY:{bounds.max.y}");
@@ -31,10 +31,6 @@ public class DissolveShader : MonoBehaviour
         LogFromMethod($"{dissolveMaterial.HasProperty("_MinY")}");
         LogFromMethod($"{dissolveMaterial.HasProperty("_MaxY")}");
         
-        // dissolveMaterial.SetFloat("_MinY", bounds.min.y);
-        // dissolveMaterial.SetFloat("_MaxY", bounds.max.y + 1f);
-
-        // inverse direction
         dissolveMaterial.SetFloat("_MinY", bounds.max.y);
         dissolveMaterial.SetFloat("_MaxY", bounds.min.y - .5f);
 

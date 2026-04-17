@@ -68,9 +68,7 @@ Shader "6991/Suction/SuctionShaderFrag"
                 float noise = tex2D(_NoiseTex, uvPlanarAnim);
                 float radial = tex2D(_RadialTex, uvPlanarAnim);
 
-                // float mask = noise * radial;
                 float mask = noise + radial;
-                // float mask = noise;
 
                 float2 distorted = i.uv + (mask - 0.5) * .025;
 

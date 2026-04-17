@@ -26,9 +26,6 @@ public class FlipbookGroupPlay : MonoBehaviour {
 
             _flipbookPlayers.Add(childFlipbookPlayer);
         }
-
-        // if (PlayOnStart)
-        //     PlayFlipbooks();
     }
 
     private bool isPlaying = false;

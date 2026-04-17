@@ -14,7 +14,6 @@ Shader "6991/TexturePanner"
             HLSLPROGRAM
             #pragma vertex vertex_shader
             #pragma fragment fragment_shader
-            // Use shader model 3.0 target, to get nicer looking lighting
             #pragma target 3.0
 
             #include "UnityCG.cginc"

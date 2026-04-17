@@ -16,11 +16,6 @@ Shader "6991/LightningVFX/CloudShader"
         [Space(10)]
         [NoScaleOffset] _ErosionMask ("ErosionMask", 2D) = "white" {}
         _ErosionThreshold ("ErosionThreshold", Range(0.01, 1)) = 0.5
-        // [Space(10)]
-        // [Header(Attribute Testing)]
-        // [KeywordEnum(Add, Multiply, Test)] _AttributeTest ("Test Attribute", Integer) = 0 // KeywordEnum is shaderkeyword related
-        // [Enum(Left,0, Middle,1, Right,2)] _AttributeTest2 ("Test Attribute 2", Integer) = 0  // value is follow by the enum property name
-        // [PowerSlider(3.0)] _AttributeTest3 ("Test Attribute 3", Range(0.01, 1)) = 0.08 // A slider with 3.0 response curve
     }
     SubShader
     {
@@ -89,18 +84,7 @@ Shader "6991/LightningVFX/CloudShader"
                 }
 
                 return color;
-            }
-
-            void procedural_gas_noise() {
-
-            }
-            void procedural_gas_turbulence() {
-
-            }
-            void procedural_gas_volume_density_function() {
-
-            }
-            
+            }            
             ENDHLSL
         }
     }

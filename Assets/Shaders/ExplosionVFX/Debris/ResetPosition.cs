@@ -20,9 +20,6 @@ public class ResetPosition : MonoBehaviour {
         transform.position = _initialTransform;
         transform.rotation = _initialRotation;
         transform.localScale = _initialScale;
-
-        // _rigidbody.MovePosition(_initialTransform);
-        // _rigidbody.MoveRotation(_initialRotation);
     }
 
 }

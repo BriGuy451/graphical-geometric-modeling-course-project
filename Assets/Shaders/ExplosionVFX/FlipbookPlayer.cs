@@ -2,15 +2,6 @@ using System.Collections;
 using NaughtyAttributes;
 using UnityEngine;
 
-/*
-    - Allows animation through flipbook. Start frame to end frame
-    - Speed of revolution. (lerp step parallel to speed)
-    - Play forward, reverse, pause, loop.
-    - exposed lifecycle members: isPlaying, isFinished, isLooping, currentFrame
-
-    Later: FlipbookSequence (just a collection of flipbook players)
-*/
-
 public class FlipbookPlayer : MonoBehaviour {
     
     [SerializeField] public float _flipbookDuration = 1f;
